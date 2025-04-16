@@ -164,18 +164,18 @@ machine's relevant port.
 4. Finally, run the command `ollama serve` to start the server and handle
 requests.
   ![A screen shot of a computer Description automatically
-generated](doc\image2.png)
+generated](./doc/image2.png)
 
 5. Verify if the server is accessible from the VM, by visiting the link in
 a browser.
-  ![](doc\image3.png)
+  ![](./doc/image3.png)
 
 ### Further Setup
 
 1. Once the correct model is installed and Ollama is properly setup, modify
 the *.env* file in the *tpotce* folder.
   ![A screenshot of a computer screen Description automatically
-generated](doc\image4.png)
+generated](./doc/image4.png)
 
 2. Restart the tpot service with *sudo systemctl restart tpot.service* to
 enable the new configurations.
@@ -205,34 +205,34 @@ enable the new configurations.
 
 1. To test Beelzebub, connect to the VM using a SSH connection.
   ![A black background with white clouds Description automatically
-generated](doc/image5.png)
+generated](./doc/image5.png)
 
-2. You can view the Beelzebub logs using *docker logs beelzebub*.
+2. You can view the Beelzebub logs using *./doc/er logs beelzebub*.
   ![A close up of text Description automatically
-generated](doc/image6.png)
+generated](./doc/image6.png)
 
 3. Ollama logs are also visible in the Host Command Line
-  ![](doc/image7.png)
+  ![](./doc/image7.png)
 
 4. The T-Pot Kibana from the WebUI shows events and insights in an
 organized manner
-  ![](doc/image8.png)
-  ![](doc/image9.png)
+  ![](./doc/image8.png)
+  ![](./doc/image9.png)
 
 ### Galah
 
 1. To test Galah, visit any path for the above mentioned ports in a
 browser.
   ![A white rectangular object with black border Description automatically
-generated](doc/image10.png)
+generated](./doc/image10.png)
 
 2. Logs are visible in the VM
-  ![](doc/image11.png)
+  ![](./doc/image11.png)
 
 3. Attack Information can be viewed from the WebUI
-  ![](doc/image12.png)
-  ![](doc/image13.png)
-  ![](doc/image14.png)
+  ![](./doc/image12.png)
+  ![](./doc/image13.png)
+  ![](./doc/image14.png)
 
 ## Key Insights
 
